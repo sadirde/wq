@@ -1,0 +1,14 @@
+#!/bin/sh
+
+
+file="<path_to_default_file>"
+bullet="*"
+separator="-"
+
+[ ! -z "$1" ] && file="$1"
+line=$(grep "$bullet" "$file" | shuf -n 1)
+word=${line%%$separator*}
+definition=${line#*$separator}
+echo "${word:2}"
+read -p "Click enter to display the definition... "
+echo "Definition: ${definition:1}"
