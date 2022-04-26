@@ -54,7 +54,7 @@ Click enter to display the definition...
 
 You think about the answer and after clicking Enter you can check if you were right.
 
-If you call `wg` without any arguments, it will take the file that was stored in the `file` variable. But you also have the possibility to take another file as input, for example:
+If you call `wq` without any arguments, it will take the file that was stored in the `file` variable. But you also have the possibility to take another file as input, for example:
 
 ```
 $ wq ~/Documents/spanish_vocabulary.md
